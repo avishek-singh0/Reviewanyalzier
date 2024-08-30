@@ -1,0 +1,39 @@
+/* Navbar.css */
+.navbar {
+  background-color: #1d4ed8; /* Blue background */
+  padding: 20px;
+  width: 200px; /* Fixed width for vertical layout */
+  height: 100vh; /* Full viewport height */
+  position: fixed; /* Fix the position */
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column; /* Vertical layout */
+  align-items: center; /* Center items horizontally */
+  z-index: 1000; /* Ensure it is above other content */
+}
+
+.nav-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-links li {
+  margin: 20px 0;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  display: block;
+}
+
+.nav-links a.active {
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
